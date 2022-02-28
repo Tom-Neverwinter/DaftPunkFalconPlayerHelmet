@@ -4,6 +4,8 @@ Daft Punk modernized helmet [sequences and design]
 I am still working on this project. after the breakup I just put it on a very long pause
 1997 alive made me want to work on it again.
 
+![Overview of wiring](https://github.com/Tom-Neverwinter/DaftPunkFalconPlayerHelmet/blob/main/20220228_015157.jpg)
+
 No music is provided. You can purchase from:
 * https://www.amazon.com/Homework-Daft-Punk/dp/B09CGCW562/ref=sr_1_2?crid=SMJF6UAIJUNR&keywords=daft+punk&sprefix=daftpunk%2Caps%2C148&sr=8-2
 * https://www.amazon.com/Discovery-Daft-Punk/dp/B09CKCQ149/ref=sr_1_3?crid=SMJF6UAIJUNR&keywords=daft+punk&sprefix=daftpunk%2Caps%2C148&sr=8-3
