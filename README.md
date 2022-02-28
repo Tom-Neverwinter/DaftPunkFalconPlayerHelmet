@@ -54,7 +54,7 @@ Lights:
 
 * https://www.amazon.com/Portable-Charger-Anker-PowerCore-20100mAh/dp/B00X5RV14Y/ref=sr_1_11?crid=X83Q73B6PK83&keywords=anker+battery&sprefix=anker+battery%2Caps%2C137&sr=8-11
 
-WS2812B Led Module 8x8 8x32. I really wish this came in clear :(
+WS2812B Led Module 8x8 8x32. I really wish this came in clear :( sadly this will be a display piece
 * https://www.aliexpress.com/item/1005002220503523.html
 
 * https://www.aliexpress.com/item/32682015405.html
@@ -96,5 +96,5 @@ program sequences or change sequences
 * https://github.com/smeighan/xLights
 
 
-
+Incomplete, but getting there. needs alignment of led matrix, ears and acrylic difuser
 ![Overview of wiring](https://github.com/Tom-Neverwinter/DaftPunkFalconPlayerHelmet/blob/main/20220228_015258.jpg)
