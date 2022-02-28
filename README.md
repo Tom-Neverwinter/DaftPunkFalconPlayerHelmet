@@ -95,3 +95,6 @@ flash falconplayer
 program sequences or change sequences
 * https://github.com/smeighan/xLights
 
+
+
+![Overview of wiring](https://github.com/Tom-Neverwinter/DaftPunkFalconPlayerHelmet/blob/main/20220228_015258.jpg)
