@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsequence BaseChannel="0" ChanCtrlBasic="0" ChanCtrlColor="0" FixedPointTiming="1" ModelBlending="true">
+  <head>
+    <version>2022.05</version>
+    <author></author>
+    <author-email></author-email>
+    <author-website></author-website>
+    <song>Oh Yeah</song>
+    <artist>Daft Punk</artist>
+    <album>Homework</album>
+    <MusicURL></MusicURL>
+    <comment></comment>
+    <sequenceTiming>50 ms</sequenceTiming>
+    <sequenceType>Media</sequenceType>
+    <mediaFile>W:\00 - music\Daft Punk\1997 - Homework - (320 kbps)\Oh Yeah.mp3</mediaFile>
+    <sequenceDuration>121.200</sequenceDuration>
+    <imageDir/>
+  </head>
+  <nextid>1</nextid>
+  <Jukebox/>
+  <ColorPalettes>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette1=1,C_CHECKBOX_Palette2=1,C_CHECKBOX_Palette3=1,C_CHECKBOX_Palette4=1,C_CHECKBOX_Palette5=1,C_CHECKBOX_Palette7=1,C_CHECKBOX_Palette8=1</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette1=1</ColorPalette>
+  </ColorPalettes>
+  <EffectDB>
+    <Effect>E_CHECKBOX_Twinkle_ReRandom=0,E_CHECKBOX_Twinkle_Strobe=0,E_CHOICE_Twinkle_Style=New Render Method,E_SLIDER_Twinkle_Count=75,E_SLIDER_Twinkle_Steps=30</Effect>
+    <Effect>E_CHECKBOX_TextToCenter=0,E_CHECKBOX_Text_PixelOffsets=0,E_CHOICE_Text_Count=none,E_CHOICE_Text_Dir=none,E_CHOICE_Text_Effect=normal,E_CHOICE_Text_Font=Use OS Fonts,E_FILEPICKERCTRL_Text_File=,E_FONTPICKER_Text_Font=bold system 8 windows-1252,E_SLIDER_Text_XEnd=0,E_SLIDER_Text_XStart=0,E_SLIDER_Text_YEnd=0,E_SLIDER_Text_YStart=0,E_TEXTCTRL_Text=OH YEAH,E_TEXTCTRL_Text_Speed=10</Effect>
+  </EffectDB>
+  <DataLayers>
+    <DataLayer lor_params="553" channel_offset="0" num_channels="0" num_frames="0" data="&lt;rendered: erase-mode&gt;" source="&lt;auto-generated&gt;" name="Nutcracker"/>
+  </DataLayers>
+  <DisplayElements>
+    <Element collapsed="0" type="timing" name="New Timing" visible="1" views="Master View,ALL" active="0"/>
+    <Element collapsed="0" type="timing" name="Lyrics" visible="1" views="" active="1"/>
+    <Element collapsed="0" type="model" name="ALL" visible="1"/>
+    <Element collapsed="0" type="model" name="EARS" visible="1"/>
+    <Element collapsed="0" type="model" name="Matrix" visible="1"/>
+  </DisplayElements>
+  <ElementEffects>
+    <Element type="timing" name="New Timing">
+      <EffectLayer/>
+    </Element>
+    <Element type="timing" name="Lyrics">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="ALL">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="EARS">
+      <EffectLayer>
+        <Effect ref="0" name="Twinkle" selected="1" startTime="0" endTime="121200" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Matrix">
+      <EffectLayer>
+        <Effect ref="1" name="Text" startTime="6600" endTime="7850" palette="1"/>
+        <Effect ref="1" name="Text" id="1" startTime="14200" endTime="16200" palette="1"/>
+        <Effect ref="1" name="Text" id="2" startTime="25600" endTime="26850" palette="1"/>
+        <Effect ref="1" name="Text" id="3" startTime="27250" endTime="28500" palette="1"/>
+        <Effect ref="1" name="Text" id="4" startTime="28500" endTime="29750" palette="1"/>
+        <Effect ref="1" name="Text" id="5" startTime="48250" endTime="50150" palette="1"/>
+        <Effect ref="1" name="Text" id="6" startTime="52050" endTime="53450" palette="1"/>
+        <Effect ref="1" name="Text" id="7" startTime="86100" endTime="87350" palette="1"/>
+        <Effect ref="1" name="Text" id="8" startTime="89950" endTime="91200" palette="1"/>
+        <Effect ref="1" name="Text" id="9" startTime="116400" endTime="117650" palette="1"/>
+        <Effect ref="1" name="Text" id="10" startTime="118150" endTime="119400" palette="1"/>
+        <Effect ref="1" name="Text" id="11" startTime="119550" endTime="120800" palette="1"/>
+      </EffectLayer>
+      <EffectLayer>
+        <Effect ref="0" name="Twinkle" startTime="0" endTime="121200" palette="0"/>
+      </EffectLayer>
+    </Element>
+  </ElementEffects>
+  <lastView>0</lastView>
+  <TimingTags>
+    <Tag number="0" position="-1"/>
+    <Tag number="1" position="-1"/>
+    <Tag number="2" position="-1"/>
+    <Tag number="3" position="-1"/>
+    <Tag number="4" position="-1"/>
+    <Tag number="5" position="-1"/>
+    <Tag number="6" position="-1"/>
+    <Tag number="7" position="-1"/>
+    <Tag number="8" position="-1"/>
+    <Tag number="9" position="-1"/>
+  </TimingTags>
+</xsequence>

@@ -1,0 +1,1 @@
+{"models":[{"name":"Circle","type":"Circle","startchannel":"2","channels":"81","stringtype":"RGB Nodes"},{"name":"Circle-2","type":"Circle","startchannel":"2","channels":"81","stringtype":"RGB Nodes"},{"name":"Matrix","type":"Matrix","startchannel":"1","channels":"768","stringtype":"RGB Nodes"}]}

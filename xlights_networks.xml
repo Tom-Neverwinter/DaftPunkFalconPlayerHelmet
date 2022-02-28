@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Networks computer="SOLSTICE" GlobalFPPProxy="">
+  <Controller Id="1" Name="DaftPunk" Description="" Type="Ethernet" Vendor="FPP" Model="Pi Hat" Variant="" AutoSize="1" FullxLightsControl="TRUE" DefaultBrightnessUnderFullControl="100" ActiveState="Active" AutoLayout="1" AutoUpload="1" SuppressDuplicates="0" IP="10.174.1.204" Protocol="DDP" FPPProxy="" Priority="100" Version="1" Expanded="FALSE" UPS="FALSE">
+    <network ChannelsPerPacket="1440" KeepChannelNumbers="1" ComPort="10.174.1.204" BaudRate="1" NetworkType="DDP" MaxChannels="768"/>
+  </Controller>
+</Networks>

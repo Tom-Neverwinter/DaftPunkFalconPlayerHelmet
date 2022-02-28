@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsequence BaseChannel="0" ChanCtrlBasic="0" ChanCtrlColor="0" FixedPointTiming="1" ModelBlending="true">
+  <head>
+    <version>2022.05</version>
+    <author></author>
+    <author-email></author-email>
+    <author-website></author-website>
+    <song>Beyond</song>
+    <artist>Daft Punk</artist>
+    <album>Random Access Memories</album>
+    <MusicURL></MusicURL>
+    <comment></comment>
+    <sequenceTiming>50 ms</sequenceTiming>
+    <sequenceType>Media</sequenceType>
+    <mediaFile>W:\00 - music\Daft Punk\2013 - Random Access Memories - (320 kbps)\Beyond.mp3</mediaFile>
+    <sequenceDuration>290.240</sequenceDuration>
+    <imageDir/>
+  </head>
+  <nextid>1</nextid>
+  <Jukebox/>
+  <ColorPalettes>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette2=1</ColorPalette>
+  </ColorPalettes>
+  <EffectDB>
+    <Effect>E_0FILEPICKERCTRL_IFS=W:\00 - music\Daft Punk Helmet\Shaders\Audio - Freq 2.fs,E_SLIDER_SHADERXYZZY_bands=4000,E_SLIDER_Shader_Speed=100,E_TEXTCTRL_Shader_LeadIn=0,E_TEXTCTRL_Shader_Offset_X=0,E_TEXTCTRL_Shader_Offset_Y=0,E_TEXTCTRL_Shader_Zoom=0,T_CHECKBOX_Canvas=1</Effect>
+  </EffectDB>
+  <DataLayers>
+    <DataLayer lor_params="0" channel_offset="0" num_channels="0" num_frames="0" data="&lt;rendered: erase-mode&gt;" source="&lt;auto-generated&gt;" name="Nutcracker"/>
+  </DataLayers>
+  <DisplayElements>
+    <Element collapsed="0" type="timing" name="Lyrics" visible="1" views="Master View,ALL" active="0"/>
+    <Element collapsed="0" type="timing" name="Empty" visible="1" views="" active="1"/>
+    <Element collapsed="0" type="model" name="ALL" visible="1"/>
+    <Element collapsed="0" type="model" name="EARS" visible="1"/>
+    <Element collapsed="0" type="model" name="Matrix" visible="1"/>
+  </DisplayElements>
+  <ElementEffects>
+    <Element type="timing" name="Lyrics">
+      <EffectLayer>
+        <Effect label="Dream" startTime="0" endTime="13800"></Effect>
+        <Effect label="Beyond dreams" startTime="13800" endTime="27600"></Effect>
+        <Effect label="Beyond life" startTime="27600" endTime="41400"></Effect>
+        <Effect label="You will find your song" startTime="41400" endTime="55200"></Effect>
+        <Effect label="Before sounds to be found" startTime="55200" endTime="69000"></Effect>
+        <Effect label="Close your eyes and rise" startTime="69000" endTime="82800"></Effect>
+        <Effect label="Higher still endless thrill" startTime="82800" endTime="96600"></Effect>
+        <Effect label="To the lend of love beyond love" startTime="96600" endTime="110400"></Effect>
+        <Effect label="Come alive and you'll find forever watching you alive" startTime="110400" endTime="124200"></Effect>
+        <Effect label="You are the night you are the ocean" startTime="124200" endTime="138000"></Effect>
+        <Effect label="You are the light behind the cloud" startTime="138000" endTime="151800"></Effect>
+        <Effect label="You are the end and the beginning" startTime="151800" endTime="165600"></Effect>
+        <Effect label="A world with time is not allowed" startTime="165600" endTime="179400"></Effect>
+        <Effect label="There's no such thing as complication" startTime="179400" endTime="193200"></Effect>
+        <Effect label="To find a way we'll lost control" startTime="193200" endTime="207000"></Effect>
+        <Effect label="Remember love's our only mission" startTime="207000" endTime="220800"></Effect>
+        <Effect label="This is the journey of the soul" startTime="220800" endTime="234600"></Effect>
+        <Effect label="The perfect song is framed with silence" startTime="234600" endTime="248400"></Effect>
+        <Effect label="It speaks of places never seen" startTime="248400" endTime="262200"></Effect>
+        <Effect label="You hold your promise long forgotten" startTime="262200" endTime="276000"></Effect>
+        <Effect label="It is the birthplace of your dreams" startTime="276000" endTime="289800"></Effect>
+      </EffectLayer>
+      <EffectLayer>
+        <Effect label="Dream" startTime="0" endTime="13800"></Effect>
+        <Effect label="Beyond" startTime="13800" endTime="20700"></Effect>
+        <Effect label="dreams" startTime="20700" endTime="27600"></Effect>
+        <Effect label="Beyond" startTime="27600" endTime="34500"></Effect>
+        <Effect label="life" startTime="34500" endTime="41400"></Effect>
+        <Effect label="You" startTime="41400" endTime="44150"></Effect>
+        <Effect label="will" startTime="44150" endTime="46900"></Effect>
+        <Effect label="find" startTime="46900" endTime="49700"></Effect>
+        <Effect label="your" startTime="49700" endTime="52450"></Effect>
+        <Effect label="song" startTime="52450" endTime="55200"></Effect>
+        <Effect label="Before" startTime="55200" endTime="57950"></Effect>
+        <Effect label="sounds" startTime="57950" endTime="60700"></Effect>
+        <Effect label="to" startTime="60700" endTime="63500"></Effect>
+        <Effect label="be" startTime="63500" endTime="66250"></Effect>
+        <Effect label="found" startTime="66250" endTime="69000"></Effect>
+        <Effect label="Close" startTime="69000" endTime="71750"></Effect>
+        <Effect label="your" startTime="71750" endTime="74500"></Effect>
+        <Effect label="eyes" startTime="74500" endTime="77300"></Effect>
+        <Effect label="and" startTime="77300" endTime="80050"></Effect>
+        <Effect label="rise" startTime="80050" endTime="82800"></Effect>
+        <Effect label="Higher" startTime="82800" endTime="86250"></Effect>
+        <Effect label="still" startTime="86250" endTime="89700"></Effect>
+        <Effect label="endless" startTime="89700" endTime="93150"></Effect>
+        <Effect label="thrill" startTime="93150" endTime="96600"></Effect>
+        <Effect label="To" startTime="96600" endTime="98550"></Effect>
+        <Effect label="the" startTime="98550" endTime="100550"></Effect>
+        <Effect label="lend" startTime="100550" endTime="102500"></Effect>
+        <Effect label="of" startTime="102500" endTime="104500"></Effect>
+        <Effect label="love" startTime="104500" endTime="106450"></Effect>
+        <Effect label="beyond" startTime="106450" endTime="108450"></Effect>
+        <Effect label="love" startTime="108450" endTime="110400"></Effect>
+        <Effect label="Come" startTime="110400" endTime="111950"></Effect>
+        <Effect label="alive" startTime="111950" endTime="113450"></Effect>
+        <Effect label="and" startTime="113450" endTime="115000"></Effect>
+        <Effect label="you'll" startTime="115000" endTime="116550"></Effect>
+        <Effect label="find" startTime="116550" endTime="118050"></Effect>
+        <Effect label="forever" startTime="118050" endTime="119600"></Effect>
+        <Effect label="watching" startTime="119600" endTime="121150"></Effect>
+        <Effect label="you" startTime="121150" endTime="122650"></Effect>
+        <Effect label="alive" startTime="122650" endTime="124200"></Effect>
+        <Effect label="You" startTime="124200" endTime="125950"></Effect>
+        <Effect label="are" startTime="125950" endTime="127650"></Effect>
+        <Effect label="the" startTime="127650" endTime="129400"></Effect>
+        <Effect label="night" startTime="129400" endTime="131100"></Effect>
+        <Effect label="you" startTime="131100" endTime="132850"></Effect>
+        <Effect label="are" startTime="132850" endTime="134550"></Effect>
+        <Effect label="the" startTime="134550" endTime="136300"></Effect>
+        <Effect label="ocean" startTime="136300" endTime="138000"></Effect>
+        <Effect label="You" startTime="138000" endTime="139950"></Effect>
+        <Effect label="are" startTime="139950" endTime="141950"></Effect>
+        <Effect label="the" startTime="141950" endTime="143900"></Effect>
+        <Effect label="light" startTime="143900" endTime="145900"></Effect>
+        <Effect label="behind" startTime="145900" endTime="147850"></Effect>
+        <Effect label="the" startTime="147850" endTime="149850"></Effect>
+        <Effect label="cloud" startTime="149850" endTime="151800"></Effect>
+        <Effect label="You" startTime="151800" endTime="153750"></Effect>
+        <Effect label="are" startTime="153750" endTime="155750"></Effect>
+        <Effect label="the" startTime="155750" endTime="157700"></Effect>
+        <Effect label="end" startTime="157700" endTime="159700"></Effect>
+        <Effect label="and" startTime="159700" endTime="161650"></Effect>
+        <Effect label="the" startTime="161650" endTime="163650"></Effect>
+        <Effect label="beginning" startTime="163650" endTime="165600"></Effect>
+        <Effect label="A" startTime="165600" endTime="167550"></Effect>
+        <Effect label="world" startTime="167550" endTime="169550"></Effect>
+        <Effect label="with" startTime="169550" endTime="171500"></Effect>
+        <Effect label="time" startTime="171500" endTime="173500"></Effect>
+        <Effect label="is" startTime="173500" endTime="175450"></Effect>
+        <Effect label="not" startTime="175450" endTime="177450"></Effect>
+        <Effect label="allowed" startTime="177450" endTime="179400"></Effect>
+        <Effect label="There's" startTime="179400" endTime="181700"></Effect>
+        <Effect label="no" startTime="181700" endTime="184000"></Effect>
+        <Effect label="such" startTime="184000" endTime="186300"></Effect>
+        <Effect label="thing" startTime="186300" endTime="188600"></Effect>
+        <Effect label="as" startTime="188600" endTime="190900"></Effect>
+        <Effect label="complication" startTime="190900" endTime="193200"></Effect>
+        <Effect label="To" startTime="193200" endTime="195150"></Effect>
+        <Effect label="find" startTime="195150" endTime="197150"></Effect>
+        <Effect label="a" startTime="197150" endTime="199100"></Effect>
+        <Effect label="way" startTime="199100" endTime="201100"></Effect>
+        <Effect label="we'll" startTime="201100" endTime="203050"></Effect>
+        <Effect label="lost" startTime="203050" endTime="205050"></Effect>
+        <Effect label="control" startTime="205050" endTime="207000"></Effect>
+        <Effect label="Remember" startTime="207000" endTime="209750"></Effect>
+        <Effect label="love's" startTime="209750" endTime="212500"></Effect>
+        <Effect label="our" startTime="212500" endTime="215300"></Effect>
+        <Effect label="only" startTime="215300" endTime="218050"></Effect>
+        <Effect label="mission" startTime="218050" endTime="220800"></Effect>
+        <Effect label="This" startTime="220800" endTime="222750"></Effect>
+        <Effect label="is" startTime="222750" endTime="224750"></Effect>
+        <Effect label="the" startTime="224750" endTime="226700"></Effect>
+        <Effect label="journey" startTime="226700" endTime="228700"></Effect>
+        <Effect label="of" startTime="228700" endTime="230650"></Effect>
+        <Effect label="the" startTime="230650" endTime="232650"></Effect>
+        <Effect label="soul" startTime="232650" endTime="234600"></Effect>
+        <Effect label="The" startTime="234600" endTime="236550"></Effect>
+        <Effect label="perfect" startTime="236550" endTime="238550"></Effect>
+        <Effect label="song" startTime="238550" endTime="240500"></Effect>
+        <Effect label="is" startTime="240500" endTime="242500"></Effect>
+        <Effect label="framed" startTime="242500" endTime="244450"></Effect>
+        <Effect label="with" startTime="244450" endTime="246450"></Effect>
+        <Effect label="silence" startTime="246450" endTime="248400"></Effect>
+        <Effect label="It" startTime="248400" endTime="250700"></Effect>
+        <Effect label="speaks" startTime="250700" endTime="253000"></Effect>
+        <Effect label="of" startTime="253000" endTime="255300"></Effect>
+        <Effect label="places" startTime="255300" endTime="257600"></Effect>
+        <Effect label="never" startTime="257600" endTime="259900"></Effect>
+        <Effect label="seen" startTime="259900" endTime="262200"></Effect>
+        <Effect label="You" startTime="262200" endTime="264500"></Effect>
+        <Effect label="hold" startTime="264500" endTime="266800"></Effect>
+        <Effect label="your" startTime="266800" endTime="269100"></Effect>
+        <Effect label="promise" startTime="269100" endTime="271400"></Effect>
+        <Effect label="long" startTime="271400" endTime="273700"></Effect>
+        <Effect label="forgotten" startTime="273700" endTime="276000"></Effect>
+        <Effect label="It" startTime="276000" endTime="277950"></Effect>
+        <Effect label="is" startTime="277950" endTime="279950"></Effect>
+        <Effect label="the" startTime="279950" endTime="281900"></Effect>
+        <Effect label="birthplace" startTime="281900" endTime="283900"></Effect>
+        <Effect label="of" startTime="283900" endTime="285850"></Effect>
+        <Effect label="your" startTime="285850" endTime="287850"></Effect>
+        <Effect label="dreams" startTime="287850" endTime="289800"></Effect>
+      </EffectLayer>
+    </Element>
+    <Element type="timing" name="Empty">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="ALL">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="EARS">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Matrix">
+      <EffectLayer>
+        <Effect ref="0" name="Shader" selected="1" startTime="0" endTime="290100" palette="0"/>
+      </EffectLayer>
+    </Element>
+  </ElementEffects>
+  <lastView>0</lastView>
+  <TimingTags>
+    <Tag number="0" position="-1"/>
+    <Tag number="1" position="-1"/>
+    <Tag number="2" position="-1"/>
+    <Tag number="3" position="-1"/>
+    <Tag number="4" position="-1"/>
+    <Tag number="5" position="-1"/>
+    <Tag number="6" position="-1"/>
+    <Tag number="7" position="-1"/>
+    <Tag number="8" position="-1"/>
+    <Tag number="9" position="-1"/>
+  </TimingTags>
+</xsequence>
