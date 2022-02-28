@@ -9,7 +9,7 @@ No music is provided. You can purchase from:
 * https://www.amazon.com/Discovery-Daft-Punk/dp/B09CKCQ149/ref=sr_1_3?crid=SMJF6UAIJUNR&keywords=daft+punk&sprefix=daftpunk%2Caps%2C148&sr=8-3
 * https://www.amazon.com/TRON-Legacy-Daft-Punk-LP/dp/B011V1WTB4/ref=sr_1_4?crid=SMJF6UAIJUNR&keywords=daft+punk&sprefix=daftpunk%2Caps%2C148&sr=8-4
 * https://www.amazon.com/Human-After-All-Daft-Punk/dp/B09CHN6QJM/ref=sr_1_8?crid=SMJF6UAIJUNR&keywords=daft+punk&sprefix=daftpunk%2Caps%2C148&sr=8-8
-* https://www.amazon.com/Random-Access-Memories-Daft-Punk/dp/B00C061HZY/ref=sr_1_6?crid=MHQFXK39SXB4&keywords=daft+punk&sprefix=daft%2Caps%2C188&sr=8-6
+* https://www.amazon.com/Random-Access-Memories-Daft-Punk/dp/B00C061I3K/ref=tmm_acd_swatch_0?_encoding=UTF8&sr=8-6
 * https://www.amazon.com/Alive-2007-Daft-Punk/dp/B09CHN6QJQ/ref=pd_sbs_3/147-5837943-7518748?psc=1
 
 Or use your own ♫ ♪
