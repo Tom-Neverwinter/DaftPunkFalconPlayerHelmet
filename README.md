@@ -90,3 +90,6 @@ solder your lights up
 
 flash falconplayer
 
+program sequences or change sequences
+https://github.com/smeighan/xLights
+
