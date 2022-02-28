@@ -34,56 +34,56 @@ Both:
 https://www.thingiverse.com/thing:177614
 
 This wonderful person does it way better than I ever will:
-https://www.youtube.com/watch?v=slq8gh6M62U&t=2s
+* https://www.youtube.com/watch?v=slq8gh6M62U&t=2s
 
-https://www.youtube.com/watch?v=gU3bOE3rxOI
+* https://www.youtube.com/watch?v=gU3bOE3rxOI
 
-https://www.youtube.com/watch?v=NLSYOH14mAs
+* https://www.youtube.com/watch?v=NLSYOH14mAs
 
 buy list:
 
 
 Lights: 
-https://www.raspberrypi.com/products/raspberry-pi-3-model-b-plus/
+* https://www.raspberrypi.com/products/raspberry-pi-3-model-b-plus/
 
-https://www.amazon.com/SanDisk-256GB-Extreme-microSD-Adapter/dp/B07FCR3316/ref=sr_1_3?crid=3E29O2GK2E0TA&keywords=microsd&sprefix=microsd%2Caps%2C103&sr=8-3
+* https://www.amazon.com/SanDisk-256GB-Extreme-microSD-Adapter/dp/B07FCR3316/ref=sr_1_3?crid=3E29O2GK2E0TA&keywords=microsd&sprefix=microsd%2Caps%2C103&sr=8-3
 
-https://www.amazon.com/Anker-2-Pack-Powerline-Micro-USB/dp/B01MUJOA5E/ref=sxts_rp_s_a2_0?crid=3IXTISHQY6LGM&cv_ct_cx=anker+powerline&keywords=ankerpowerline&psc=1&sprefix=ankerpowerline%2Caps%2C330&sr=1-2-5985efba-8948-4f09-9122-d605505c9d1e
+* https://www.amazon.com/Anker-2-Pack-Powerline-Micro-USB/dp/B01MUJOA5E/ref=sxts_rp_s_a2_0?crid=3IXTISHQY6LGM&cv_ct_cx=anker+powerline&keywords=ankerpowerline&psc=1&sprefix=ankerpowerline%2Caps%2C330&sr=1-2-5985efba-8948-4f09-9122-d605505c9d1e
 
-https://www.amazon.com/Portable-Charger-Anker-PowerCore-20100mAh/dp/B00X5RV14Y/ref=sr_1_11?crid=X83Q73B6PK83&keywords=anker+battery&sprefix=anker+battery%2Caps%2C137&sr=8-11
+* https://www.amazon.com/Portable-Charger-Anker-PowerCore-20100mAh/dp/B00X5RV14Y/ref=sr_1_11?crid=X83Q73B6PK83&keywords=anker+battery&sprefix=anker+battery%2Caps%2C137&sr=8-11
 
 WS2812B Led Module 8x8 8x32. I really wish this came in clear :(
-https://www.aliexpress.com/item/1005002220503523.html
+* https://www.aliexpress.com/item/1005002220503523.html
 
-https://www.aliexpress.com/item/32682015405.html
+* https://www.aliexpress.com/item/32682015405.html
 
 some good wire:
-https://www.amazon.com/Hook-Wire-Kit-Electrical-Assortment/dp/B082VY9FRB/ref=sr_1_6?crid=2DQV38087S4DL&keywords=silicon+wire+18+awg&sprefix=silicon+wire+%2Caps%2C161&sr=8-6
+* https://www.amazon.com/Hook-Wire-Kit-Electrical-Assortment/dp/B082VY9FRB/ref=sr_1_6?crid=2DQV38087S4DL&keywords=silicon+wire+18+awg&sprefix=silicon+wire+%2Caps%2C161&sr=8-6
 
-https://www.amazon.com/Anker-Soundcore-Bluetooth-Exclusive-Water-Resistant/dp/B01MTB55WH/ref=psdc_689637011_t2_B08BCHKY52 soundcore 3 does not have auxillary :/
+* https://www.amazon.com/Anker-Soundcore-Bluetooth-Exclusive-Water-Resistant/dp/B01MTB55WH/ref=psdc_689637011_t2_B08BCHKY52 soundcore 3 does not have auxillary :/
 
-https://www.amazon.com/AmazonBasics-Stereo-Audio-Cable-Meters/dp/B00NO73Q84/ref=sr_1_4?crid=1ZR8JDEIB9BRQ&keywords=3.5mm+audio+cable&sprefix=3.5mm+%2Caps%2C124&sr=8-4
+* https://www.amazon.com/AmazonBasics-Stereo-Audio-Cable-Meters/dp/B00NO73Q84/ref=sr_1_4?crid=1ZR8JDEIB9BRQ&keywords=3.5mm+audio+cable&sprefix=3.5mm+%2Caps%2C124&sr=8-4
 
-https://www.amazon.com/Creative-Labs-70SB173000000-Sound-Blaster/dp/B06XBZ38ZJ/ref=sr_1_3?crid=3BBL7XM22S749&keywords=sound+blaster+usb&sprefix=sound+blaster+us%2Caps%2C154&sr=8-3
+* https://www.amazon.com/Creative-Labs-70SB173000000-Sound-Blaster/dp/B06XBZ38ZJ/ref=sr_1_3?crid=3BBL7XM22S749&keywords=sound+blaster+usb&sprefix=sound+blaster+us%2Caps%2C154&sr=8-3
 
 because of the Falcon PiCap the soundblaster usb sound card is required.
 
-https://www.pixelcontroller.com/store/controllers/47-falcon-picap.html
+* https://www.pixelcontroller.com/store/controllers/47-falcon-picap.html
 
 Enclosure:????
 
 outfit:
-https://www.amazon.com/Electroma-Lucky-Leather-jackett-XXS-3XL/dp/B071RF4RLX
+* https://www.amazon.com/Electroma-Lucky-Leather-jackett-XXS-3XL/dp/B071RF4RLX
 
-https://www.amazon.com/gp/product/B08H4PYMY3/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1
+* https://www.amazon.com/gp/product/B08H4PYMY3/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1
 
-https://www.amazon.com/gp/product/B00X5FAF9I/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1
+* https://www.amazon.com/gp/product/B00X5FAF9I/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1
 
 some sweet 70's style suit or shirt, sequins FTW
 
 
 SETUP:
-https://www.youtube.com/watch?v=PS2OaGXIoj4
+* https://www.youtube.com/watch?v=PS2OaGXIoj4
 make sure to properly setup falconpicap!!! this is the main concern of this project as you can destroy it
 
 solder your lights up
@@ -91,5 +91,5 @@ solder your lights up
 flash falconplayer
 
 program sequences or change sequences
-https://github.com/smeighan/xLights
+* https://github.com/smeighan/xLights
 
