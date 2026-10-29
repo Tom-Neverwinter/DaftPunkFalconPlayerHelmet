@@ -27,7 +27,7 @@ The helmet is back in action (October 2026):
 | Face | P6.25 **WS2812B transparent LED screen**, 300 x 50 mm, **48 x 8 = 384 px**, 5 V | AliExpress, sold as "P6.25 DC5V WS2812B transparent screen 256/384 pixel" (256 px is the 200 mm size). Datasheet is in this repo. Color order **GRB**. See-through, so it sits behind the visor without blocking your view. |
 | Ears | 2 x 27-pixel rings (54 px), 5 V, 3-wire (+, -, data) | Chained off the face's data out: face -> right ear -> left ear. **Currently dark.** They don't answer standard WS2812 timing, so probably a different chip. Check yours before buying. |
 | Audio | Creative **Sound Blaster Play! 3** USB audio adapter (24-bit / 96 kHz, plug and play) + a speaker | **Required with the PiCap:** pixel output uses the same PWM hardware as the Pi's built-in headphone jack, so the onboard audio is unusable. Pick the USB card as FPP's audio output. |
-| Power | Anker USB power bank, **20,000 mAh minimum** | Enough for an evening at 15% brightness. Check the per-port amp rating as well as the mAh (see Power below). |
+| Power | Anker USB power bank, **20,000 mAh minimum** | Roughly 5-7 hours at 15% brightness (estimate, see Power below). Check the per-port amp rating as well as the mAh (see Power below). |
 | Remote | Elgato Stream Deck, original 15-key (USB `0fd9:0060`) | Plugs into the Pi's USB. Software: [Technologic Deck](https://github.com/Tom-Neverwinter/technologic-deck). MK.2 and other sizes also work. |
 | Network | Pi Ethernet or Wi-Fi | Only needed to load sequences or use the FPP web UI. The helmet plays standalone. |
 | Helmet shell | 3D printed Thomas helmet | One of the Thingiverse models listed under **Models** below (I don't remember which one I printed). |
@@ -54,7 +54,7 @@ The helmet is back in action (October 2026):
 * WS2812B pixels draw up to ~60 mA each at full white. The face is 384 x 60 mA = **~23 A** at full white, more than any wearable battery can supply.
 * So FPP limits the face (and ears) to **15% brightness**: about **3.5 A worst case**, and typically 1 A or less with real animations. Through the visor it's still plenty bright.
 * Feed 5 V into the panel at both ends (power injection) with thick wire (18 AWG silicone), and keep the Pi on its own 5 V / 2.5 A feed so LED surges can't brown it out.
-* For portable use, I run it from an **Anker 20,000 mAh (or bigger) power bank**. Any bank works if it can supply the current, so check the per-port amp rating, not just the mAh. At 15% a 20,000 mAh bank lasts an evening.
+* For portable use, I run it from an **Anker 20,000 mAh (or bigger) power bank**. Any bank works if it can supply the current, so check the per-port amp rating, not just the mAh. Rough runtime: a 20,000 mAh bank gives about 10 Ah at 5 V after conversion losses; the Pi (~0.5 A) plus the face at 15% (typically ~1 A) is about 1.5 A, so **about 5-7 hours** (an estimate, not measured).
 
 ### FPP settings that matter
 
