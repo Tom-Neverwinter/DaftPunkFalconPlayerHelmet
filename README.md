@@ -16,6 +16,60 @@ The helmet is back in action (October 2026):
 * **Stream Deck wrist remote:** an Elgato Stream Deck on the Pi's USB picks songs and emotes. It grew into its own FPP plugin: **[Technologic Deck](https://github.com/Tom-Neverwinter/technologic-deck)**. `streamdeck/` has the helmet's original copy.
 * **Ears:** the two 27-pixel ear rings are wired after the face, but they currently stay dark (suspected pixel protocol mismatch). That's a project for another day.
 
+## Hardware (2026 build)
+
+### Parts
+
+| Part | What I used | Notes |
+|---|---|---|
+| Controller | Raspberry Pi 3 Model B (rev 1.2) | Runs [Falcon Player](https://github.com/FalconChristmas/fpp) 9.5 (Debian 12 image). Any Pi 3/4 that FPP supports works. |
+| Pixel output | Pi pixel hat (FPP output type **RPIWS281X / PiHat**, 2 ports) | The 2022 build used a Falcon PiCap (see below). Port 1 = GPIO18, port 2 = GPIO13. Only port 1 is used. |
+| Face | P6.25 **WS2812B transparent LED screen**, 300 x 50 mm, **48 x 8 = 384 px**, 5 V | AliExpress, sold as "P6.25 DC5V WS2812B transparent screen 256/384 pixel" (256 px is the 200 mm size). Datasheet is in this repo. Color order **GRB**. See-through, so it sits behind the visor without blocking your view. |
+| Ears | 2 x 27-pixel rings (54 px), 5 V, 3-wire (+, -, data) | Chained off the face's data out: face -> right ear -> left ear. **Currently dark.** They don't answer standard WS2812 timing, so probably a different chip. Check yours before buying. |
+| Remote | Elgato Stream Deck, original 15-key (USB `0fd9:0060`) | Plugs into the Pi's USB. Software: [Technologic Deck](https://github.com/Tom-Neverwinter/technologic-deck). MK.2 and other sizes also work. |
+| Network | Pi Ethernet or Wi-Fi | Only needed to load sequences or use the FPP web UI. The helmet plays standalone. |
+
+### Wiring
+
+```
+                 USB                         +--------------------- 5 V supply ---------------------+
+ Stream Deck  -------+                       |                         |                            |
+                     v                       v (+/-)                   v (+/-)                      v (+/-)
+              +--------------+  port 1   +-----------------------------------+   +--------+   +--------+
+              | Raspberry Pi |---data--->| DIN  face 48x8 (384 px)   DOUT    |-->| ear R  |-->| ear L  |
+              |  + pixel hat |  GPIO18   |  chain starts on the RIGHT side   |   | 27 px  |   | 27 px  |
+              +--------------+           +-----------------------------------+   +--------+   +--------+
+                     |  GND ------------- common ground to every LED supply ----------------------+
+```
+
+* **Data:** one wire from hat port 1 to the face's DIN. The face's DOUT goes to the right ear, then the left ear.
+* **Ground:** tie the Pi/hat ground to the LED supply ground, or the data won't be read.
+* **Orientation:** this panel's chain starts on the **right** edge (as seen from the front), running in vertical zig-zag columns of 8. If your text reads backwards, mirror the model in xLights (or set `MIRROR_X` in `make_emotes.py`).
+
+### Power
+
+* WS2812B pixels draw up to ~60 mA each at full white. The face is 384 x 60 mA = **~23 A** at full white, more than any wearable battery can supply.
+* So FPP limits the face (and ears) to **15% brightness**: about **3.5 A worst case**, and typically 1 A or less with real animations. Through the visor it's still plenty bright.
+* Feed 5 V into the panel at both ends (power injection) with thick wire (18 AWG silicone), and keep the Pi on its own 5 V / 2.5 A feed so LED surges can't brown it out.
+* For portable use, a USB power bank works if it can supply the current. Check the per-port amp rating, not just the mAh.
+
+### FPP settings that matter
+
+| Setting | Value |
+|---|---|
+| Channel output | Pi Pixel Strings (RPIWS281X), PiHat, 2 outputs |
+| Port 1, string 1 | Face: start channel 1, 384 px, **GRB**, brightness **15** |
+| Port 1, string 2 | Ears: start channel 1153, 54 px, RGB, brightness 15 (virtual string chained after the face) |
+| Port 2 | empty |
+| Total channels | 1314 (face 1152 + ears 162) |
+| Playlists | one per album, plus `Emotes` (looping, no audio) |
+
+Lessons learned (the hard way):
+
+* Upgrade FPP one major version at a time (8.5 -> 9.5 -> 10.3). The first reboot after an upgrade can hang; a power cycle fixes it.
+* FPP 10.x replaces the PiHat driver with `PiHat-DPIPixels`, and existing configs are converted automatically.
+* If the ears (or anything chained after the face) stay dark, check FPP's string config. Chained pixels must be a **second virtual string on the same port**, not a separate port.
+
 ![Overview of wiring](https://github.com/Tom-Neverwinter/DaftPunkFalconPlayerHelmet/blob/main/20220228_015157.jpg)
 
 No music is provided. You can purchase from:
@@ -56,6 +110,8 @@ This wonderful person does it way better than I ever will:
 
 buy list:
 
+
+### 2022 build parts list (original)
 
 Lights: 
 * https://www.raspberrypi.com/products/raspberry-pi-3-model-b-plus/
