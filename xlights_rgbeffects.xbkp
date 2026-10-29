@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xrgb>
   <models>
-    <model DisplayAs="Circle" StringType="RGB Nodes" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="50" LayoutGroup="Default" name="Circle-2" parm2="27" Dir="R" StartSide="B" InsideOut="0" WorldPosX="410.9414" WorldPosY="341.4319" WorldPosZ="0.0000" ScaleX="4.7423" ScaleY="4.7423" ScaleZ="1.8846" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="!DaftPunk:2">
-      <ControllerConnection Protocol="ws2811" Port="2" reverse="1"/>
+    <model DisplayAs="Circle" StringType="RGB Nodes" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="50" LayoutGroup="Default" name="Circle-2" parm2="27" Dir="R" StartSide="B" InsideOut="0" Controller="DaftPunk" WorldPosX="410.9414" WorldPosY="341.4319" WorldPosZ="0.0000" ScaleX="4.7423" ScaleY="4.7423" ScaleZ="1.8846" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="7" StartChannel="!DaftPunk:850">
+      <ControllerConnection Port="1" Protocol="DMX-Open" channel="850"/>
     </model>
-    <model DisplayAs="Circle" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" name="Circle" parm3="50" InsideOut="0" LayoutGroup="Default" parm2="27" WorldPosX="-434.6926" WorldPosY="341.9036" WorldPosZ="0.0000" ScaleX="5.3333" ScaleY="4.7423" ScaleZ="1.8846" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="!DaftPunk:2">
-      <ControllerConnection Protocol="ws2811" Port="2"/>
+    <model DisplayAs="Circle" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" name="Circle" parm3="50" InsideOut="0" LayoutGroup="Default" parm2="27" Controller="DaftPunk" WorldPosX="-434.6926" WorldPosY="341.9036" WorldPosZ="0.0000" ScaleX="5.3333" ScaleY="4.7423" ScaleZ="1.8846" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="7" StartChannel="!DaftPunk:769">
+      <ControllerConnection Port="1" Protocol="DMX-Open" channel="769"/>
     </model>
-    <model StringType="RGB Nodes" Antialias="1" PixelSize="2" Transparency="0" name="Matrix" LayoutGroup="Default" Controller="DaftPunk" parm1="1" parm2="256" parm3="32" DisplayAs="Vert Matrix" Dir="R" StartSide="B" WorldPosX="-5.5000" WorldPosY="350.0000" WorldPosZ="0.0000" ScaleX="20.0000" ScaleY="18.0000" ScaleZ="1.5000" RotateX="0.00000000" RotateY="-0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="!DaftPunk:1">
-      <ControllerConnection Protocol="ws2811" Port="1" brightness="20"/>
+    <model StringType="RGB Nodes" Antialias="1" PixelSize="2" Transparency="0" name="Matrix" LayoutGroup="Default" Controller="DaftPunk" parm1="1" parm2="256" parm3="32" DisplayAs="Vert Matrix" Dir="L" StartSide="B" WorldPosX="-5.5000" WorldPosY="350.0000" WorldPosZ="0.0000" ScaleX="20.0000" ScaleY="18.0000" ScaleZ="1.5000" RotateX="0.00000000" RotateY="-0.00000000" RotateZ="0.00000000" versionNumber="7" StartChannel="!DaftPunk:1">
+      <ControllerConnection Port="1" Protocol="DMX-Open" channel="1"/>
     </model>
   </models>
   <view_objects>
-    <view_object DisplayAs="Gridlines" LayoutGroup="Default" name="Gridlines" GridLineSpacing="50" GridWidth="2000.0" GridHeight="1000.0" Active="1" WorldPosX="0.0000" WorldPosY="0.0000" WorldPosZ="0.0000" ScaleX="1.0000" ScaleY="1.0000" ScaleZ="1.0000" RotateX="-90.00000000" RotateY="-0.00000000" RotateZ="0.00000000" versionNumber="5"/>
+    <view_object DisplayAs="Gridlines" LayoutGroup="Default" name="Gridlines" GridLineSpacing="50" GridWidth="2000.0" GridHeight="1000.0" Active="1" WorldPosX="0.0000" WorldPosY="0.0000" WorldPosZ="0.0000" ScaleX="1.0000" ScaleY="1.0000" ScaleZ="1.0000" RotateX="-90.00000000" RotateY="-0.00000000" RotateZ="0.00000000" versionNumber="7"/>
   </view_objects>
   <effects version="0007"/>
   <views>
@@ -37,6 +37,7 @@
     <DisabledEffect Red="255" Green="255" Blue="0"/>
     <EffectDefault Red="192" Green="192" Blue="192"/>
     <EffectSelected Red="204" Green="102" Blue="255"/>
+    <EffectSelectedDisabled Red="200" Green="200" Blue="64"/>
     <EffectSelectedFixed Red="255" Green="128" Blue="0"/>
     <EffectSelectedLocked Red="200" Green="0" Blue="0"/>
     <GridDashes Red="255" Green="255" Blue="0"/>
@@ -44,14 +45,18 @@
     <LabelOutline Red="103" Green="103" Blue="103"/>
     <Labels Red="255" Green="255" Blue="204"/>
     <LayoutDashes Red="255" Green="255" Blue="0"/>
+    <LockedEffect Red="200" Green="0" Blue="0"/>
     <ModelDefault Red="211" Green="211" Blue="211"/>
     <ModelOverlap Red="255" Green="0" Blue="0"/>
     <ModelSelected Red="255" Green="255" Blue="0"/>
     <Phonemes Red="255" Green="181" Blue="218"/>
     <Phrases Red="153" Green="255" Blue="153"/>
     <ReferenceEffect Red="255" Green="0" Blue="255"/>
+    <ReferenceEffectDisabled Red="255" Green="255" Blue="127"/>
     <ReferenceEffectLocked Red="255" Green="0" Blue="0"/>
     <RowHeaderSelected Red="130" Green="178" Blue="207"/>
+    <TextHighlighted Red="0" Green="0" Blue="0"/>
+    <TextUnselected Red="0" Green="0" Blue="0"/>
     <Timing1 Red="0" Green="255" Blue="255"/>
     <Timing2 Red="255" Green="0" Blue="0"/>
     <Timing3 Red="0" Green="255" Blue="0"/>
@@ -59,11 +64,13 @@
     <Timing5 Red="255" Green="255" Blue="0"/>
     <TimingDefault Red="255" Green="255" Blue="255"/>
     <Waveform Red="130" Green="178" Blue="207"/>
+    <WaveformMouseMarker Red="0" Green="0" Blue="255"/>
     <WaveformSelected Red="0" Green="0" Blue="200"/>
     <WaveformSelectedEffect Red="255" Green="128" Blue="0"/>
     <Words Red="255" Green="218" Blue="145"/>
   </colors>
   <Viewpoints>
+    <DefaultCamera2D name="DEFAULT2D" posX="0.000000" posY="0.000000" posZ="0.000000" angleX="20.000000" angleY="5.000000" angleZ="0.000000" distance="-2000.000000" zoom="1.271503" panx="-19.580408" pany="105.459991" panz="0.000000" zoom_corrx="179.056519" zoom_corry="99.641754" is_3d="0"/>
     <DefaultCamera3D name="DEFAULT3D" posX="0.000000" posY="0.000000" posZ="0.000000" angleX="20.000000" angleY="5.000000" angleZ="0.000000" distance="-2000.000000" zoom="1.000000" panx="0.000000" pany="0.000000" panz="0.000000" zoom_corrx="0.000000" zoom_corry="0.000000" is_3d="1"/>
   </Viewpoints>
 </xrgb>

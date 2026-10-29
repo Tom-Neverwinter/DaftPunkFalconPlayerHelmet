@@ -1,27 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xrgb>
   <models>
-    <model DisplayAs="Circle" StringType="RGB Nodes" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="50" LayoutGroup="Default" name="Circle-2" parm2="27" Dir="R" StartSide="B" InsideOut="0" WorldPosX="410.9414" WorldPosY="341.4319" WorldPosZ="0.0000" ScaleX="4.7423" ScaleY="4.7423" ScaleZ="1.8846" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="!DaftPunk:2">
-      <ControllerConnection Protocol="ws2811" Port="2" reverse="1"/>
+    <model DisplayAs="Custom" StringType="RGB Nodes" Antialias="1" PixelSize="2" Transparency="0" name="Daft Punk Helmet" LayoutGroup="Default" Controller="DaftPunk" parm1="74" parm2="11" parm3="1" CustomWidth="74" CustomHeight="11" Depth="1" CustomModel=",,,424,425,,426,427,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,400,399,,398,397,,,;,,423,,,,,,428,,,,,8,9,24,25,40,41,56,57,72,73,88,89,104,105,120,121,136,137,152,153,168,169,184,185,200,201,216,217,232,233,248,249,264,265,280,281,296,297,312,313,328,329,344,345,360,361,376,377,,,,,401,,,,,,396,,;,422,,,,,,,,429,,,,7,10,23,26,39,42,55,58,71,74,87,90,103,106,119,122,135,138,151,154,167,170,183,186,199,202,215,218,231,234,247,250,263,266,279,282,295,298,311,314,327,330,343,346,359,362,375,378,,,,402,,,,,,,,395,;,421,,,,,,,,430,,,,6,11,22,27,38,43,54,59,70,75,86,91,102,107,118,123,134,139,150,155,166,171,182,187,198,203,214,219,230,235,246,251,262,267,278,283,294,299,310,315,326,331,342,347,358,363,374,379,,,,403,,,,,,,,394,;420,,,,,,,,,,431,,,5,12,21,28,37,44,53,60,69,76,85,92,101,108,117,124,133,140,149,156,165,172,181,188,197,204,213,220,229,236,245,252,261,268,277,284,293,300,309,316,325,332,341,348,357,364,373,380,,,404,,,,,,,,,,393;419,,,,,,,,,,432,,,4,13,20,29,36,45,52,61,68,77,84,93,100,109,116,125,132,141,148,157,164,173,180,189,196,205,212,221,228,237,244,253,260,269,276,285,292,301,308,317,324,333,340,349,356,365,372,381,,,405,,,,,,,,,,392;418,,,,,,,,,,433,,,3,14,19,30,35,46,51,62,67,78,83,94,99,110,115,126,131,142,147,158,163,174,179,190,195,206,211,222,227,238,243,254,259,270,275,286,291,302,307,318,323,334,339,350,355,366,371,382,,,406,,,,,,,,,,391;417,,,,,,,,,,434,,,2,15,18,31,34,47,50,63,66,79,82,95,98,111,114,127,130,143,146,159,162,175,178,191,194,207,210,223,226,239,242,255,258,271,274,287,290,303,306,319,322,335,338,351,354,367,370,383,,,407,,,,,,,,,,390;,416,,,,,,,,435,,,,1,16,17,32,33,48,49,64,65,80,81,96,97,112,113,128,129,144,145,160,161,176,177,192,193,208,209,224,225,240,241,256,257,272,273,288,289,304,305,320,321,336,337,352,353,368,369,384,,,,408,,,,,,,,389,;,,415,414,,,,437,436,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,409,410,,,,387,388,,;,,,,413,412,438,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,411,385,386,,,," StartSide="B" Dir="L" WorldPosX="0.0000" WorldPosY="350.0000" WorldPosZ="0.0000" ScaleX="12.0000" ScaleY="12.0000" ScaleZ="1.0000" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="7" StartChannel="!DaftPunk:1">
+      <ControllerConnection Port="1" Protocol="ws2811"/>
+      <subModel name="Face" layout="horizontal" type="ranges" bufferstyle="Default" line0="1,16,17,32,33,48,49,64,65,80,81,96,97,112,113,128,129,144,145,160,161,176,177,192,193,208,209,224,225,240,241,256,257,272,273,288,289,304,305,320,321,336,337,352,353,368,369,384" line1="2,15,18,31,34,47,50,63,66,79,82,95,98,111,114,127,130,143,146,159,162,175,178,191,194,207,210,223,226,239,242,255,258,271,274,287,290,303,306,319,322,335,338,351,354,367,370,383" line2="3,14,19,30,35,46,51,62,67,78,83,94,99,110,115,126,131,142,147,158,163,174,179,190,195,206,211,222,227,238,243,254,259,270,275,286,291,302,307,318,323,334,339,350,355,366,371,382" line3="4,13,20,29,36,45,52,61,68,77,84,93,100,109,116,125,132,141,148,157,164,173,180,189,196,205,212,221,228,237,244,253,260,269,276,285,292,301,308,317,324,333,340,349,356,365,372,381" line4="5,12,21,28,37,44,53,60,69,76,85,92,101,108,117,124,133,140,149,156,165,172,181,188,197,204,213,220,229,236,245,252,261,268,277,284,293,300,309,316,325,332,341,348,357,364,373,380" line5="6,11,22,27,38,43,54,59,70,75,86,91,102,107,118,123,134,139,150,155,166,171,182,187,198,203,214,219,230,235,246,251,262,267,278,283,294,299,310,315,326,331,342,347,358,363,374,379" line6="7,10,23,26,39,42,55,58,71,74,87,90,103,106,119,122,135,138,151,154,167,170,183,186,199,202,215,218,231,234,247,250,263,266,279,282,295,298,311,314,327,330,343,346,359,362,375,378" line7="8,9,24,25,40,41,56,57,72,73,88,89,104,105,120,121,136,137,152,153,168,169,184,185,200,201,216,217,232,233,248,249,264,265,280,281,296,297,312,313,328,329,344,345,360,361,376,377"/>
+      <subModel name="Ear L" layout="horizontal" type="ranges" bufferstyle="Default" line0="412-438"/>
+      <subModel name="Ear R" layout="horizontal" type="ranges" bufferstyle="Default" line0="385-411"/>
     </model>
-    <model DisplayAs="Circle" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" name="Circle" parm3="50" InsideOut="0" LayoutGroup="Default" parm2="27" WorldPosX="-434.6926" WorldPosY="341.9036" WorldPosZ="0.0000" ScaleX="5.3333" ScaleY="4.7423" ScaleZ="1.8846" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="!DaftPunk:2">
-      <ControllerConnection Protocol="ws2811" Port="2"/>
-    </model>
-    <model StringType="RGB Nodes" Antialias="1" PixelSize="2" Transparency="0" name="Matrix" LayoutGroup="Default" Controller="DaftPunk" parm1="1" parm2="256" parm3="32" DisplayAs="Vert Matrix" Dir="R" StartSide="B" WorldPosX="-5.5000" WorldPosY="350.0000" WorldPosZ="0.0000" ScaleX="20.0000" ScaleY="18.0000" ScaleZ="1.5000" RotateX="0.00000000" RotateY="-0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="!DaftPunk:1">
-      <ControllerConnection Protocol="ws2811" Port="1" brightness="20"/>
-    </model>
-  </models>
+    </models>
   <view_objects>
-    <view_object DisplayAs="Gridlines" LayoutGroup="Default" name="Gridlines" GridLineSpacing="50" GridWidth="2000.0" GridHeight="1000.0" Active="1" WorldPosX="0.0000" WorldPosY="0.0000" WorldPosZ="0.0000" ScaleX="1.0000" ScaleY="1.0000" ScaleZ="1.0000" RotateX="-90.00000000" RotateY="-0.00000000" RotateZ="0.00000000" versionNumber="5"/>
+    <view_object DisplayAs="Gridlines" LayoutGroup="Default" name="Gridlines" GridLineSpacing="50" GridWidth="2000.0" GridHeight="1000.0" Active="1" WorldPosX="0.0000" WorldPosY="0.0000" WorldPosZ="0.0000" ScaleX="1.0000" ScaleY="1.0000" ScaleZ="1.0000" RotateX="-90.00000000" RotateY="-0.00000000" RotateZ="0.00000000" versionNumber="7"/>
   </view_objects>
   <effects version="0007"/>
   <views>
-    <view name="ALL" models="Matrix,ALL,EARS"/>
+    <view name="ALL" models="Daft Punk Helmet,ALL,EARS"/>
   </views>
   <palettes/>
   <modelGroups>
-    <modelGroup selected="0" name="ALL" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models=",Matrix"/>
-    <modelGroup selected="0" name="EARS" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="Circle,Circle-2"/>
+    <modelGroup selected="0" name="ALL" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="Daft Punk Helmet"/>
+    <modelGroup selected="0" name="EARS" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="Daft Punk Helmet/Ear L,Daft Punk Helmet/Ear R"/>
   </modelGroups>
   <layoutGroups/>
   <perspectives current="Default Perspective">
@@ -37,6 +34,7 @@
     <DisabledEffect Red="255" Green="255" Blue="0"/>
     <EffectDefault Red="192" Green="192" Blue="192"/>
     <EffectSelected Red="204" Green="102" Blue="255"/>
+    <EffectSelectedDisabled Red="200" Green="200" Blue="64"/>
     <EffectSelectedFixed Red="255" Green="128" Blue="0"/>
     <EffectSelectedLocked Red="200" Green="0" Blue="0"/>
     <GridDashes Red="255" Green="255" Blue="0"/>
@@ -44,14 +42,18 @@
     <LabelOutline Red="103" Green="103" Blue="103"/>
     <Labels Red="255" Green="255" Blue="204"/>
     <LayoutDashes Red="255" Green="255" Blue="0"/>
+    <LockedEffect Red="200" Green="0" Blue="0"/>
     <ModelDefault Red="211" Green="211" Blue="211"/>
     <ModelOverlap Red="255" Green="0" Blue="0"/>
     <ModelSelected Red="255" Green="255" Blue="0"/>
     <Phonemes Red="255" Green="181" Blue="218"/>
     <Phrases Red="153" Green="255" Blue="153"/>
     <ReferenceEffect Red="255" Green="0" Blue="255"/>
+    <ReferenceEffectDisabled Red="255" Green="255" Blue="127"/>
     <ReferenceEffectLocked Red="255" Green="0" Blue="0"/>
     <RowHeaderSelected Red="130" Green="178" Blue="207"/>
+    <TextHighlighted Red="0" Green="0" Blue="0"/>
+    <TextUnselected Red="0" Green="0" Blue="0"/>
     <Timing1 Red="0" Green="255" Blue="255"/>
     <Timing2 Red="255" Green="0" Blue="0"/>
     <Timing3 Red="0" Green="255" Blue="0"/>
@@ -59,11 +61,13 @@
     <Timing5 Red="255" Green="255" Blue="0"/>
     <TimingDefault Red="255" Green="255" Blue="255"/>
     <Waveform Red="130" Green="178" Blue="207"/>
+    <WaveformMouseMarker Red="0" Green="0" Blue="255"/>
     <WaveformSelected Red="0" Green="0" Blue="200"/>
     <WaveformSelectedEffect Red="255" Green="128" Blue="0"/>
     <Words Red="255" Green="218" Blue="145"/>
   </colors>
   <Viewpoints>
+    <DefaultCamera2D name="DEFAULT2D" posX="0.000000" posY="0.000000" posZ="0.000000" angleX="20.000000" angleY="5.000000" angleZ="0.000000" distance="-2000.000000" zoom="1.271503" panx="-19.580408" pany="105.459991" panz="0.000000" zoom_corrx="179.056519" zoom_corry="99.641754" is_3d="0"/>
     <DefaultCamera3D name="DEFAULT3D" posX="0.000000" posY="0.000000" posZ="0.000000" angleX="20.000000" angleY="5.000000" angleZ="0.000000" distance="-2000.000000" zoom="1.000000" panx="0.000000" pany="0.000000" panz="0.000000" zoom_corrx="0.000000" zoom_corry="0.000000" is_3d="1"/>
   </Viewpoints>
 </xrgb>

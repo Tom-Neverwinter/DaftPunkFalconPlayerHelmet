@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsequence BaseChannel="0" ChanCtrlBasic="0" ChanCtrlColor="0" FixedPointTiming="1" ModelBlending="true">
   <head>
-    <version>2022.05</version>
+    <version>2023.02</version>
     <author></author>
     <author-email></author-email>
     <author-website></author-website>
@@ -12,7 +12,7 @@
     <comment></comment>
     <sequenceTiming>50 ms</sequenceTiming>
     <sequenceType>Media</sequenceType>
-    <mediaFile>W:\00 - music\Daft Punk\1997 - Homework - (320 kbps)\Indo Silver Club.mp3</mediaFile>
+    <mediaFile>Z:\000music\Daft Punk\1997 - Homework - (320 kbps)\Indo Silver Club.mp3</mediaFile>
     <sequenceDuration>274.733</sequenceDuration>
     <imageDir/>
   </head>
@@ -31,7 +31,7 @@
     <Element collapsed="0" type="timing" name="New Timing" visible="1" views="Master View,ALL" active="1"/>
     <Element collapsed="0" type="model" name="ALL" visible="1"/>
     <Element collapsed="0" type="model" name="EARS" visible="1"/>
-    <Element collapsed="0" type="model" name="Matrix" visible="1"/>
+    <Element collapsed="0" type="model" name="Daft Punk Helmet" visible="1"/>
   </DisplayElements>
   <ElementEffects>
     <Element type="timing" name="New Timing">
@@ -42,13 +42,14 @@
     </Element>
     <Element type="model" name="EARS">
       <EffectLayer>
-        <Effect ref="0" name="Meteors" selected="1" startTime="0" endTime="274500" palette="0"/>
-      </EffectLayer>
-    </Element>
-    <Element type="model" name="Matrix">
-      <EffectLayer>
         <Effect ref="0" name="Meteors" startTime="0" endTime="274500" palette="0"/>
       </EffectLayer>
+    </Element>
+    <Element type="model" name="Daft Punk Helmet">
+      <EffectLayer/>
+      <SubModelEffectLayer layer="0" name="Face">
+        <Effect ref="0" name="Meteors" startTime="0" endTime="274500" palette="0"/>
+      </SubModelEffectLayer>
     </Element>
   </ElementEffects>
   <lastView>0</lastView>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsequence BaseChannel="0" ChanCtrlBasic="0" ChanCtrlColor="0" FixedPointTiming="1" ModelBlending="true">
+  <head>
+    <version>2023.02</version>
+    <author></author>
+    <author-email></author-email>
+    <author-website></author-website>
+    <song>Touch</song>
+    <artist>Daft Punk</artist>
+    <album>Random Access Memories</album>
+    <MusicURL></MusicURL>
+    <comment></comment>
+    <sequenceTiming>50 ms</sequenceTiming>
+    <sequenceType>Media</sequenceType>
+    <mediaFile>Z:\000music\Daft Punk\2013 - Random Access Memories - (320 kbps)\Touch.mp3</mediaFile>
+    <sequenceDuration>498.960</sequenceDuration>
+    <imageDir></imageDir>
+  </head>
+  <nextid>1</nextid>
+  <Jukebox/>
+  <ColorPalettes>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette1=1</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette2=1,C_CHECKBOX_Palette3=1,C_CHECKBOX_Palette4=1,C_CHECKBOX_Palette5=1,C_CHECKBOX_Palette7=1,C_CHECKBOX_Palette8=1</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette2=1,C_CHECKBOX_Palette8=1</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette2=1</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette2=1,C_SLIDER_Brightness=25</ColorPalette>
+  </ColorPalettes>
+  <EffectDB>
+    <Effect>E_CHOICE_Kaleidoscope_Type=Triangle,E_SLIDER_Kaleidoscope_Rotation=0,E_SLIDER_Kaleidoscope_Size=5,E_SLIDER_Kaleidoscope_X=50,E_SLIDER_Kaleidoscope_Y=50,E_TEXTCTRL1=The Kaleidoscope effect distorts the pixels in the layers below it. The Canvas option in Layer Blending must be enabled for it to work.,T_CHECKBOX_Canvas=1</Effect>
+    <Effect>E_CHOICE_VUMeter_Type=Waveform,E_SLIDER_VUMeter_Bars=6,E_SLIDER_VUMeter_Gain=0,E_SLIDER_VUMeter_YOffset=0,E_TEXTCTRL_VUMeter_Gain=0,T_TEXTCTRL_Fadeout=20</Effect>
+    <Effect>E_CHOICE_Warp_Treatment_APPLYLAST=constant,E_CHOICE_Warp_Type=wavy,E_SLIDER_Warp_Speed=20,E_TEXTCTRL1=The warp effect distorts the pixels in the layers below it. The Canvas option in Layer Blending must be enabled for it to work.,E_TEXTCTRL_Warp_Speed=20,T_CHECKBOX_Canvas=1</Effect>
+    <Effect>E_CHOICE_VUMeter_Type=Waveform,E_SLIDER_VUMeter_Bars=6,E_SLIDER_VUMeter_Gain=0,E_SLIDER_VUMeter_YOffset=0,E_TEXTCTRL_VUMeter_Gain=0</Effect>
+    <Effect>E_CHOICE_Falling=Driving,E_SLIDER_Snowflakes_Count=5,E_SLIDER_Snowflakes_Speed=10,E_SLIDER_Snowflakes_Type=1,T_TEXTCTRL_Fadein=5,T_TEXTCTRL_Fadeout=10</Effect>
+    <Effect>E_CHOICE_VUMeter_Type=Level Random Bar,E_SLIDER_VUMeter_Bars=6,E_SLIDER_VUMeter_Gain=41,E_SLIDER_VUMeter_Sensitivity=10,E_TEXTCTRL_VUMeter_Gain=41</Effect>
+    <Effect>E_CHECKBOX_Ripple3D=0,E_CHOICE_Ripple_Movement=Explode,E_CHOICE_Ripple_Object_To_Draw=Circle,E_SLIDER_Ripple_Thickness=3,E_SLIDER_Ripple_XC=0,E_SLIDER_Ripple_YC=0,E_TEXTCTRL_Ripple_Cycles=1.0</Effect>
+    <Effect>E_CHECKBOX_Music_Fade=0,E_CHECKBOX_Music_LogarithmicX=1,E_CHECKBOX_Music_Scale=1,E_CHOICE_Music_Colour=Distinct,E_CHOICE_Music_Scaling=None,E_CHOICE_Music_Type=Morph,E_SLIDER_Music_Bars=32,E_SLIDER_Music_EndNote=127,E_SLIDER_Music_Offset=0,E_SLIDER_Music_Sensitivity=33,E_SLIDER_Music_StartNote=0</Effect>
+    <Effect>E_CHECKBOX_FIRETIMING=0,E_CHECKBOX_Fireworks_Gravity=1,E_CHECKBOX_Fireworks_HoldColour=1,E_CHECKBOX_Fireworks_UseMusic=1,E_SLIDER_Fireworks_Count=50,E_SLIDER_Fireworks_Fade=50,E_SLIDER_Fireworks_Sensitivity=50,E_SLIDER_Fireworks_Velocity=2,E_SLIDER_Fireworks_XLocation=-1,E_SLIDER_Fireworks_XVelocity=0,E_SLIDER_Fireworks_YLocation=-1,E_SLIDER_Fireworks_YVelocity=0,E_TEXTCTRL_Fireworks_XLocation=-1,E_TEXTCTRL_Fireworks_XVelocity=0,E_TEXTCTRL_Fireworks_YLocation=-1,E_TEXTCTRL_Fireworks_YVelocity=0</Effect>
+    <Effect>E_CHOICE_VUMeter_Type=Level Random Bar,E_SLIDER_VUMeter_Bars=6,E_SLIDER_VUMeter_Gain=41,E_SLIDER_VUMeter_Sensitivity=10,E_TEXTCTRL_VUMeter_Gain=41,T_TEXTCTRL_Fadein=10</Effect>
+    <Effect>E_CHECKBOX_Shape_FadeAway=1,E_CHECKBOX_Shape_FireTiming=0,E_CHECKBOX_Shape_HoldColour=1,E_CHECKBOX_Shape_RandomInitial=1,E_CHECKBOX_Shape_RandomLocation=1,E_CHECKBOX_Shape_UseMusic=0,E_CHECKBOX_Shapes_RandomMovement=1,E_CHOICE_Shape_ObjectToDraw=Heart,E_SLIDER_Shape_Growth=10,E_SLIDER_Shape_Lifetime=5,E_SLIDER_Shape_Rotation=0,E_SLIDER_Shape_StartSize=1,E_SLIDER_Shape_Thickness=3,E_TEXTCTRL_Shape_Count=4</Effect>
+  </EffectDB>
+  <DataLayers>
+    <DataLayer lor_params="0" channel_offset="0" num_channels="0" num_frames="0" data="&lt;rendered: erase-mode&gt;" source="&lt;auto-generated&gt;" name="Nutcracker"/>
+  </DataLayers>
+  <DisplayElements>
+    <Element collapsed="0" type="timing" name="New Timing" visible="1" views="Master View,ALL" active="1"/>
+    <Element collapsed="0" type="model" name="ALL" visible="1"/>
+    <Element collapsed="0" type="model" name="EARS" visible="1"/>
+    <Element collapsed="0" type="model" name="Daft Punk Helmet" visible="1"/>
+  </DisplayElements>
+  <ElementEffects>
+    <Element type="timing" name="New Timing">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="ALL">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="EARS">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Daft Punk Helmet">
+      <EffectLayer/>
+      <SubModelEffectLayer layer="0" name="Face">
+        <Effect ref="0" name="Kaleidoscope" startTime="47400" endTime="48300" palette="0"/>
+        <Effect ref="1" name="VU Meter" id="2" startTime="201350" endTime="269950" palette="1"/>
+        <Effect ref="2" name="Warp" selected="1" id="3" startTime="330850" endTime="359200" palette="2"/>
+        <Effect ref="3" name="VU Meter" id="4" startTime="464700" endTime="499250" palette="3"/>
+      </SubModelEffectLayer>
+      <SubModelEffectLayer layer="1" name="Face">
+        <Effect ref="4" name="Snowflakes" startTime="0" endTime="47000" palette="0"/>
+        <Effect ref="5" name="VU Meter" id="1" startTime="47000" endTime="109950" palette="1"/>
+        <Effect ref="6" name="Ripple" id="2" startTime="109950" endTime="151350" palette="1"/>
+        <Effect ref="7" name="Music Effect" id="3" startTime="151400" endTime="201350" palette="1"/>
+        <Effect ref="3" name="VU Meter" id="4" startTime="331150" endTime="359200" palette="2"/>
+        <Effect ref="8" name="Fireworks" id="5" startTime="359200" endTime="462150" palette="1"/>
+      </SubModelEffectLayer>
+      <SubModelEffectLayer layer="2" name="Face">
+        <Effect ref="9" name="VU Meter" startTime="0" endTime="47050" palette="1"/>
+        <Effect ref="3" name="VU Meter" id="1" startTime="47050" endTime="151350" palette="4"/>
+        <Effect ref="3" name="VU Meter" id="3" startTime="151350" endTime="175550" palette="4"/>
+        <Effect ref="10" name="Shape" id="4" startTime="250050" endTime="331050" palette="2"/>
+      </SubModelEffectLayer>
+    </Element>
+  </ElementEffects>
+  <lastView>0</lastView>
+  <TimingTags>
+    <Tag number="0" position="-1"/>
+    <Tag number="1" position="-1"/>
+    <Tag number="2" position="-1"/>
+    <Tag number="3" position="-1"/>
+    <Tag number="4" position="-1"/>
+    <Tag number="5" position="-1"/>
+    <Tag number="6" position="-1"/>
+    <Tag number="7" position="-1"/>
+    <Tag number="8" position="-1"/>
+    <Tag number="9" position="-1"/>
+  </TimingTags>
+</xsequence>

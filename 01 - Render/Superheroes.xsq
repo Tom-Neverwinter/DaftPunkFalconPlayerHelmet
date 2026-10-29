@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsequence BaseChannel="0" ChanCtrlBasic="0" ChanCtrlColor="0" FixedPointTiming="1" ModelBlending="true">
   <head>
-    <version>2022.05</version>
+    <version>2023.02</version>
     <author></author>
     <author-email></author-email>
     <author-website></author-website>
@@ -12,7 +12,7 @@
     <comment></comment>
     <sequenceTiming>50 ms</sequenceTiming>
     <sequenceType>Media</sequenceType>
-    <mediaFile>W:\00 - music\Daft Punk\2001 - Discovery - (320 kbps)\Superheroes.mp3</mediaFile>
+    <mediaFile>Z:\000music\Daft Punk\2001 - Discovery - (320 kbps)\Superheroes.mp3</mediaFile>
     <sequenceDuration>237.800</sequenceDuration>
     <imageDir/>
   </head>
@@ -22,7 +22,7 @@
     <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette1=1</ColorPalette>
   </ColorPalettes>
   <EffectDB>
-    <Effect>E_0FILEPICKERCTRL_IFS=W:\00 - music\Daft Punk Helmet\Shaders\Audio - waves remix.fs,E_SLIDER_Shader_Speed=100,E_TEXTCTRL_Shader_LeadIn=0,E_TEXTCTRL_Shader_Offset_X=0,E_TEXTCTRL_Shader_Offset_Y=0,E_TEXTCTRL_Shader_Zoom=0,T_CHECKBOX_Canvas=1</Effect>
+    <Effect>E_0FILEPICKERCTRL_IFS=Z:\000music\xlights\Props\Daft Punk Helmet\Shaders\Audio - waves remix.fs,E_SLIDER_Shader_Speed=100,E_TEXTCTRL_Shader_LeadIn=0,E_TEXTCTRL_Shader_Offset_X=0,E_TEXTCTRL_Shader_Offset_Y=0,E_TEXTCTRL_Shader_Zoom=0,T_CHECKBOX_Canvas=1</Effect>
   </EffectDB>
   <DataLayers>
     <DataLayer lor_params="605" channel_offset="0" num_channels="0" num_frames="0" data="&lt;rendered: erase-mode&gt;" source="&lt;auto-generated&gt;" name="Nutcracker"/>
@@ -31,7 +31,7 @@
     <Element collapsed="0" type="timing" name="New Timing" visible="1" views="Master View,ALL" active="1"/>
     <Element collapsed="0" type="model" name="ALL" visible="1"/>
     <Element collapsed="0" type="model" name="EARS" visible="1"/>
-    <Element collapsed="0" type="model" name="Matrix" visible="1"/>
+    <Element collapsed="0" type="model" name="Daft Punk Helmet" visible="1"/>
   </DisplayElements>
   <ElementEffects>
     <Element type="timing" name="New Timing">
@@ -42,13 +42,14 @@
     </Element>
     <Element type="model" name="EARS">
       <EffectLayer>
-        <Effect ref="0" name="Shader" selected="1" startTime="0" endTime="237600" palette="0"/>
-      </EffectLayer>
-    </Element>
-    <Element type="model" name="Matrix">
-      <EffectLayer>
         <Effect ref="0" name="Shader" startTime="0" endTime="237600" palette="0"/>
       </EffectLayer>
+    </Element>
+    <Element type="model" name="Daft Punk Helmet">
+      <EffectLayer/>
+      <SubModelEffectLayer layer="0" name="Face">
+        <Effect ref="0" name="Shader" startTime="0" endTime="237600" palette="0"/>
+      </SubModelEffectLayer>
     </Element>
   </ElementEffects>
   <lastView>0</lastView>

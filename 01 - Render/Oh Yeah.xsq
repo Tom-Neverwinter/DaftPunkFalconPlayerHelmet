@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsequence BaseChannel="0" ChanCtrlBasic="0" ChanCtrlColor="0" FixedPointTiming="1" ModelBlending="true">
   <head>
-    <version>2022.05</version>
+    <version>2023.02</version>
     <author></author>
     <author-email></author-email>
     <author-website></author-website>
@@ -12,7 +12,7 @@
     <comment></comment>
     <sequenceTiming>50 ms</sequenceTiming>
     <sequenceType>Media</sequenceType>
-    <mediaFile>W:\00 - music\Daft Punk\1997 - Homework - (320 kbps)\Oh Yeah.mp3</mediaFile>
+    <mediaFile>Z:\000music\Daft Punk\1997 - Homework - (320 kbps)\Oh Yeah.mp3</mediaFile>
     <sequenceDuration>121.200</sequenceDuration>
     <imageDir/>
   </head>
@@ -34,7 +34,7 @@
     <Element collapsed="0" type="timing" name="Lyrics" visible="1" views="" active="1"/>
     <Element collapsed="0" type="model" name="ALL" visible="1"/>
     <Element collapsed="0" type="model" name="EARS" visible="1"/>
-    <Element collapsed="0" type="model" name="Matrix" visible="1"/>
+    <Element collapsed="0" type="model" name="Daft Punk Helmet" visible="1"/>
   </DisplayElements>
   <ElementEffects>
     <Element type="timing" name="New Timing">
@@ -48,11 +48,12 @@
     </Element>
     <Element type="model" name="EARS">
       <EffectLayer>
-        <Effect ref="0" name="Twinkle" selected="1" startTime="0" endTime="121200" palette="0"/>
+        <Effect ref="0" name="Twinkle" startTime="0" endTime="121200" palette="0"/>
       </EffectLayer>
     </Element>
-    <Element type="model" name="Matrix">
-      <EffectLayer>
+    <Element type="model" name="Daft Punk Helmet">
+      <EffectLayer/>
+      <SubModelEffectLayer layer="0" name="Face">
         <Effect ref="1" name="Text" startTime="6600" endTime="7850" palette="1"/>
         <Effect ref="1" name="Text" id="1" startTime="14200" endTime="16200" palette="1"/>
         <Effect ref="1" name="Text" id="2" startTime="25600" endTime="26850" palette="1"/>
@@ -65,10 +66,10 @@
         <Effect ref="1" name="Text" id="9" startTime="116400" endTime="117650" palette="1"/>
         <Effect ref="1" name="Text" id="10" startTime="118150" endTime="119400" palette="1"/>
         <Effect ref="1" name="Text" id="11" startTime="119550" endTime="120800" palette="1"/>
-      </EffectLayer>
-      <EffectLayer>
+      </SubModelEffectLayer>
+      <SubModelEffectLayer layer="1" name="Face">
         <Effect ref="0" name="Twinkle" startTime="0" endTime="121200" palette="0"/>
-      </EffectLayer>
+      </SubModelEffectLayer>
     </Element>
   </ElementEffects>
   <lastView>0</lastView>

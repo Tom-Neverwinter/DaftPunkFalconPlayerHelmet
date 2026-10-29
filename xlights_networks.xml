@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Networks computer="SOLSTICE" GlobalFPPProxy="">
-  <Controller Id="1" Name="DaftPunk" Description="" Type="Ethernet" Vendor="FPP" Model="Pi Hat" Variant="" AutoSize="1" FullxLightsControl="TRUE" DefaultBrightnessUnderFullControl="100" ActiveState="Active" AutoLayout="1" AutoUpload="1" SuppressDuplicates="0" IP="10.174.1.204" Protocol="DDP" FPPProxy="" Priority="100" Version="1" Expanded="FALSE" UPS="FALSE">
-    <network ChannelsPerPacket="1440" KeepChannelNumbers="1" ComPort="10.174.1.204" BaudRate="1" NetworkType="DDP" MaxChannels="768"/>
+<Networks computer="SOLSTICE" GlobalFPPProxy="" GlobalForceLocalIP="" AutoUpdateFromBase="0" BaseShowDir="">
+  <Controller Id="1" Name="DaftPunk" Description="" Type="Ethernet" Vendor="FPP" Model="Pi Hat" Variant="2 Output RPIWS281X" AutoSize="1" FromBase="0" FullxLightsControl="FALSE" DefaultBrightnessUnderFullControl="100" DefaultGammaUnderFullControl="1" ActiveState="Active" AutoLayout="0" AutoUpload="0" SuppressDuplicates="0" Monitor="1" IP="192.168.0.250" Protocol="DDP" FPPProxy="" Priority="100" Version="1" Expanded="FALSE" UPS="FALSE" ForceLocalIP="">
+    <network ChannelsPerPacket="1440" KeepChannelNumbers="1" ComPort="192.168.0.250" BaudRate="1" NetworkType="DDP" MaxChannels="1314"/>
   </Controller>
 </Networks>

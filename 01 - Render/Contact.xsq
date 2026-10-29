@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsequence BaseChannel="0" ChanCtrlBasic="0" ChanCtrlColor="0" FixedPointTiming="1" ModelBlending="true">
+  <head>
+    <version>2023.02</version>
+    <author></author>
+    <author-email></author-email>
+    <author-website></author-website>
+    <song>Contact</song>
+    <artist>Daft Punk</artist>
+    <album>Random Access Memories</album>
+    <MusicURL></MusicURL>
+    <comment></comment>
+    <sequenceTiming>25 ms</sequenceTiming>
+    <sequenceType>Media</sequenceType>
+    <mediaFile>Z:\000music\Daft Punk\2013 - Random Access Memories - (320 kbps)\Contact.mp3</mediaFile>
+    <sequenceDuration>383.626</sequenceDuration>
+    <imageDir></imageDir>
+  </head>
+  <nextid>1</nextid>
+  <Jukebox/>
+  <ColorPalettes>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette1=1</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#800000,C_BUTTON_Palette2=#B30000,C_BUTTON_Palette3=#D70000,C_BUTTON_Palette4=#D90000,C_BUTTON_Palette5=#FF0000,C_BUTTON_Palette6=#FF4646,C_BUTTON_Palette7=#0000FF,C_BUTTON_Palette8=#FFFFFF,C_CHECKBOX_Palette6=1,C_CHECKBOX_Palette7=1,C_CHECKBOX_Palette8=1</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#000080,C_BUTTON_Palette2=#0000FF,C_BUTTON_Palette3=#3535FF,C_BUTTON_Palette4=#007DFB,C_BUTTON_Palette5=#46A3FF,C_BUTTON_Palette6=#63C9FA,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#AAFFFF,C_CHECKBOX_Palette3=1,C_CHECKBOX_Palette4=1,C_CHECKBOX_Palette5=1,C_CHECKBOX_Palette6=1,C_CHECKBOX_Palette7=1,C_CHECKBOX_Palette8=1</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette2=1,C_CHECKBOX_Palette3=1,C_CHECKBOX_Palette4=1,C_CHECKBOX_Palette8=1</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#800000,C_BUTTON_Palette2=#B30000,C_BUTTON_Palette3=#D70000,C_BUTTON_Palette4=#D90000,C_BUTTON_Palette5=#FF0000,C_BUTTON_Palette6=#FF4646,C_BUTTON_Palette7=#FF9393,C_BUTTON_Palette8=#FFFFFF,C_CHECKBOX_Palette6=1,C_CHECKBOX_Palette8=1</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#800000,C_BUTTON_Palette2=#B30000,C_BUTTON_Palette3=#D70000,C_BUTTON_Palette4=#D90000,C_BUTTON_Palette5=#FF0000,C_BUTTON_Palette6=#FF4646,C_BUTTON_Palette7=#0000FF,C_BUTTON_Palette8=#FFFFFF,C_CHECKBOX_Palette7=1,C_CHECKBOX_Palette8=1</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#800000,C_BUTTON_Palette2=#B30000,C_BUTTON_Palette3=#D70000,C_BUTTON_Palette4=#D90000,C_BUTTON_Palette5=#FF0000,C_BUTTON_Palette6=#FF4646,C_BUTTON_Palette7=#0000FF,C_BUTTON_Palette8=#FFFFFF,C_CHECKBOX_Palette8=1</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#000080,C_BUTTON_Palette2=#0000FF,C_BUTTON_Palette3=#3535FF,C_BUTTON_Palette4=#007DFB,C_BUTTON_Palette5=#46A3FF,C_BUTTON_Palette6=#63C9FA,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#AAFFFF,C_CHECKBOX_Palette5=1,C_CHECKBOX_Palette6=1,C_CHECKBOX_Palette7=1,C_CHECKBOX_Palette8=1</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#800000,C_BUTTON_Palette2=#B30000,C_BUTTON_Palette3=#D70000,C_BUTTON_Palette4=#D90000,C_BUTTON_Palette5=#FF0000,C_BUTTON_Palette6=#FF4646,C_BUTTON_Palette7=#0000FF,C_BUTTON_Palette8=#FFFFFF,C_CHECKBOX_Palette6=1,C_CHECKBOX_Palette8=1</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette1=1,C_CHECKBOX_Palette8=1</ColorPalette>
+  </ColorPalettes>
+  <EffectDB>
+    <Effect>E_CHOICE_Falling=Falling,E_SLIDER_Snowflakes_Count=5,E_SLIDER_Snowflakes_Speed=10,E_SLIDER_Snowflakes_Type=1,T_TEXTCTRL_Fadein=10,T_TEXTCTRL_Fadeout=10</Effect>
+    <Effect>E_CHECKBOX_Strobe_Music=1,E_SLIDER_Number_Strobes=12,E_SLIDER_Strobe_Duration=5,E_SLIDER_Strobe_Type=1,T_TEXTCTRL_Fadein=10,T_TEXTCTRL_Fadeout=5</Effect>
+    <Effect>E_CHOICE_VUMeter_Type=Level Bar,E_SLIDER_VUMeter_Bars=6,E_SLIDER_VUMeter_Gain=16,E_SLIDER_VUMeter_Sensitivity=80,E_TEXTCTRL_VUMeter_Gain=16</Effect>
+    <Effect>E_CHECKBOX_Strobe_Music=1,E_SLIDER_Number_Strobes=4,E_SLIDER_Strobe_Duration=5,E_SLIDER_Strobe_Type=1,T_TEXTCTRL_Fadein=10</Effect>
+    <Effect>E_CHECKBOX_Strobe_Music=1,E_SLIDER_Number_Strobes=8,E_SLIDER_Strobe_Duration=5,E_SLIDER_Strobe_Type=1,T_TEXTCTRL_Fadein=10,T_TEXTCTRL_Fadeout=5</Effect>
+    <Effect>E_CHECKBOX_Strobe_Music=1,E_SLIDER_Number_Strobes=16,E_SLIDER_Strobe_Duration=2,E_SLIDER_Strobe_Type=1,T_TEXTCTRL_Fadein=10,T_TEXTCTRL_Fadeout=5</Effect>
+    <Effect>E_CHECKBOX_Strobe_Music=1,E_SLIDER_Number_Strobes=18,E_SLIDER_Strobe_Duration=2,E_SLIDER_Strobe_Type=1,T_TEXTCTRL_Fadein=10,T_TEXTCTRL_Fadeout=5</Effect>
+    <Effect>E_CHECKBOX_Galaxy_Blend_Edges=1,E_CHECKBOX_Galaxy_Inward=0,E_CHECKBOX_Galaxy_Reverse=0,E_NOTEBOOK_Galaxy=Start,E_SLIDER_Galaxy_Accel=0,E_SLIDER_Galaxy_CenterX=50,E_SLIDER_Galaxy_CenterY=50,E_SLIDER_Galaxy_Duration=20,E_SLIDER_Galaxy_End_Radius=10,E_SLIDER_Galaxy_End_Width=5,E_SLIDER_Galaxy_Revolutions=1440,E_SLIDER_Galaxy_Start_Angle=0,E_SLIDER_Galaxy_Start_Radius=1,E_SLIDER_Galaxy_Start_Width=5,T_TEXTCTRL_Fadein=5</Effect>
+    <Effect>E_CHECKBOX_VUMeter_LogarithmicX=0,E_CHECKBOX_VUMeter_SlowDownFalls=1,E_CHOICE_VUMeter_Type=Spectrogram Line,E_SLIDER_VUMeter_Bars=6,E_SLIDER_VUMeter_EndNote=84,E_SLIDER_VUMeter_Sensitivity=80,E_SLIDER_VUMeter_StartNote=36,E_SLIDER_VUMeter_XOffset=0,T_TEXTCTRL_Fadein=5,T_TEXTCTRL_Fadeout=5</Effect>
+  </EffectDB>
+  <DataLayers>
+    <DataLayer lor_params="0" channel_offset="0" num_channels="0" num_frames="0" data="&lt;rendered: erase-mode&gt;" source="&lt;auto-generated&gt;" name="Nutcracker"/>
+  </DataLayers>
+  <DisplayElements>
+    <Element collapsed="0" type="timing" name="New Timing" visible="1" views="Master View,ALL" active="1"/>
+    <Element collapsed="0" type="model" name="ALL" visible="1"/>
+    <Element collapsed="0" type="model" name="EARS" visible="1"/>
+    <Element collapsed="0" type="model" name="Daft Punk Helmet" visible="1"/>
+  </DisplayElements>
+  <ElementEffects>
+    <Element type="timing" name="New Timing">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="ALL">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="EARS">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Daft Punk Helmet">
+      <EffectLayer/>
+      <SubModelEffectLayer layer="0" name="Face">
+        <Effect ref="0" name="Snowflakes" startTime="0" endTime="64200" palette="0"/>
+        <Effect ref="1" name="Strobe" id="1" startTime="228950" endTime="243925" palette="1"/>
+        <Effect ref="1" name="Strobe" id="2" startTime="264750" endTime="276625" palette="1"/>
+        <Effect ref="1" name="Strobe" id="3" startTime="283325" endTime="322825" palette="2"/>
+        <Effect ref="2" name="VU Meter" id="4" startTime="369400" endTime="373750" palette="3"/>
+      </SubModelEffectLayer>
+      <SubModelEffectLayer layer="1" name="Face">
+        <Effect ref="3" name="Strobe" startTime="54600" endTime="85800" palette="0"/>
+        <Effect ref="4" name="Strobe" id="1" startTime="128375" endTime="166025" palette="0"/>
+        <Effect ref="1" name="Strobe" id="2" startTime="193075" endTime="233600" palette="4"/>
+        <Effect ref="1" name="Strobe" id="3" startTime="237300" endTime="254425" palette="5"/>
+        <Effect ref="1" name="Strobe" id="4" startTime="259000" endTime="270475" palette="6"/>
+        <Effect ref="1" name="Strobe" id="5" startTime="272850" endTime="288475" palette="7"/>
+        <Effect ref="5" name="Strobe" id="6" startTime="316850" endTime="341800" palette="0"/>
+      </SubModelEffectLayer>
+      <SubModelEffectLayer layer="2" name="Face">
+        <Effect ref="4" name="Strobe" startTime="82825" endTime="132600" palette="0"/>
+        <Effect ref="4" name="Strobe" id="1" startTime="161475" endTime="195025" palette="0"/>
+        <Effect ref="1" name="Strobe" id="2" startTime="248250" endTime="263275" palette="8"/>
+        <Effect ref="6" name="Strobe" id="3" startTime="332900" endTime="364000" palette="6"/>
+      </SubModelEffectLayer>
+      <SubModelEffectLayer layer="3" name="Face">
+        <Effect ref="7" name="Galaxy" startTime="128075" endTime="166175" palette="0"/>
+        <Effect ref="8" name="VU Meter" id="1" startTime="359325" endTime="374025" palette="9"/>
+      </SubModelEffectLayer>
+    </Element>
+  </ElementEffects>
+  <lastView>0</lastView>
+  <TimingTags>
+    <Tag number="0" position="-1"/>
+    <Tag number="1" position="-1"/>
+    <Tag number="2" position="-1"/>
+    <Tag number="3" position="-1"/>
+    <Tag number="4" position="-1"/>
+    <Tag number="5" position="-1"/>
+    <Tag number="6" position="-1"/>
+    <Tag number="7" position="-1"/>
+    <Tag number="8" position="-1"/>
+    <Tag number="9" position="-1"/>
+  </TimingTags>
+</xsequence>
