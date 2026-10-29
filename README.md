@@ -23,11 +23,14 @@ The helmet is back in action (October 2026):
 | Part | What I used | Notes |
 |---|---|---|
 | Controller | Raspberry Pi 3 Model B (rev 1.2) | Runs [Falcon Player](https://github.com/FalconChristmas/fpp) 9.5 (Debian 12 image). Any Pi 3/4 that FPP supports works. |
-| Pixel output | Pi pixel hat (FPP output type **RPIWS281X / PiHat**, 2 ports) | The 2022 build used a Falcon PiCap (see below). Port 1 = GPIO18, port 2 = GPIO13. Only port 1 is used. |
+| Pixel output | [Falcon PiCap](https://www.pixelcontroller.com/store/controllers/47-falcon-picap.html) | 2-port pixel hat with level shifting. FPP drives it as **RPIWS281X / PiHat**. Port 1 = GPIO18, port 2 = GPIO13. Only port 1 is used. Follow the PiCap setup guide carefully; a wrong setup can destroy it. |
 | Face | P6.25 **WS2812B transparent LED screen**, 300 x 50 mm, **48 x 8 = 384 px**, 5 V | AliExpress, sold as "P6.25 DC5V WS2812B transparent screen 256/384 pixel" (256 px is the 200 mm size). Datasheet is in this repo. Color order **GRB**. See-through, so it sits behind the visor without blocking your view. |
 | Ears | 2 x 27-pixel rings (54 px), 5 V, 3-wire (+, -, data) | Chained off the face's data out: face -> right ear -> left ear. **Currently dark.** They don't answer standard WS2812 timing, so probably a different chip. Check yours before buying. |
+| Audio | Creative **Sound Blaster Play! 3** USB audio adapter (24-bit / 96 kHz, plug and play) + a speaker | **Required with the PiCap:** pixel output uses the same PWM hardware as the Pi's built-in headphone jack, so the onboard audio is unusable. Pick the USB card as FPP's audio output. |
+| Power | Anker USB power bank, **20,000 mAh minimum** | Enough for an evening at 15% brightness. Check the per-port amp rating as well as the mAh (see Power below). |
 | Remote | Elgato Stream Deck, original 15-key (USB `0fd9:0060`) | Plugs into the Pi's USB. Software: [Technologic Deck](https://github.com/Tom-Neverwinter/technologic-deck). MK.2 and other sizes also work. |
 | Network | Pi Ethernet or Wi-Fi | Only needed to load sequences or use the FPP web UI. The helmet plays standalone. |
+| Helmet shell | 3D printed Thomas helmet | One of the Thingiverse models listed under **Models** below (I don't remember which one I printed). |
 
 ### Wiring
 
@@ -51,7 +54,7 @@ The helmet is back in action (October 2026):
 * WS2812B pixels draw up to ~60 mA each at full white. The face is 384 x 60 mA = **~23 A** at full white, more than any wearable battery can supply.
 * So FPP limits the face (and ears) to **15% brightness**: about **3.5 A worst case**, and typically 1 A or less with real animations. Through the visor it's still plenty bright.
 * Feed 5 V into the panel at both ends (power injection) with thick wire (18 AWG silicone), and keep the Pi on its own 5 V / 2.5 A feed so LED surges can't brown it out.
-* For portable use, a USB power bank works if it can supply the current. Check the per-port amp rating, not just the mAh.
+* For portable use, I run it from an **Anker 20,000 mAh (or bigger) power bank**. Any bank works if it can supply the current, so check the per-port amp rating, not just the mAh. At 15% a 20,000 mAh bank lasts an evening.
 
 ### FPP settings that matter
 
